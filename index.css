@@ -189,7 +189,7 @@ body {
 #over_map_info {
     position: absolute;
     top: 19em;
-    height: 12em;
+    height: 15em;
     width:33em;
     left: 0;
     z-index: 99;
@@ -198,6 +198,17 @@ body {
    padding: 1.5em;
     opacity: 0.7;
 }
+
+#social-icons {
+    width: 13em;
+    margin: 2em auto;
+}
+
+.icon {
+    margin-right: 1.25em;
+    color: black;
+}
+
 
 #over_map_info h4 {
     text-align: center;

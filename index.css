@@ -108,8 +108,12 @@ body {
     left: 0;
 }
 
-#project-grid {
+.project-grid {
     margin-top:5em;
+}
+
+#project1 {
+    margin-bottom: 3em;
 }
 
 #project-grid a {

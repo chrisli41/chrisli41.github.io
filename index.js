@@ -4,9 +4,9 @@
 
 $(document).ready(function(){
 
-    $('#project-grid div p').hide();
+    $('.project-grid div p').hide();
 
-    $('#project-grid a > div').hover(function(){
+    $('.project-grid a > div').hover(function(){
         $(this).css('background-color', 'black');
         $(this).find('img').css('opacity', '0.5');
         $(this).find('p').addClass('show-text').show();
